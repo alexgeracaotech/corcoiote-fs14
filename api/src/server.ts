@@ -7,4 +7,6 @@ server.use(express.json());
 
 server.use('/users', userRouter);
 
+server.use(express.static('/workspaces/corcoiote-fs14/web'));
+
 server.listen(3000);
